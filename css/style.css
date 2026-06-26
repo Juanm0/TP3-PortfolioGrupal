@@ -84,7 +84,141 @@
 
 
 
+/* variables figueroa */
 
+.figueroa img{
+    color: #111;
+}
+
+
+
+
+/* **************VARIABLES GOMEZ***************** */
+
+
+.titulo-natalia-gomez {
+    width: auto;
+    background-color: rgb(224, 147, 197);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px 0;
+}
+.titulo-natalia-gomez blockquote {
+    line-height: 1.4;
+    margin-bottom: 12px;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.subtitulo-natalia-gomez {
+    width: auto;
+    background-color: rgb(224, 147, 197);
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 15px 0;
+}
+.subtitulotitulo-natalia-gomez blockquote {
+    line-height: 1.4;
+    margin-bottom: 12px;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.article-natalia-gomez {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 100px;
+}
+.article-natalia-gomez > div:first-child {
+    width: 40%;
+    height: 100%;
+    margin: 0;
+    margin-top: 0%;
+    margin-left: 20px;
+    padding: 0;
+}
+.article-natalia-gomez > div:last-child {
+    background-color: rgb(227, 201, 218);
+    width: 45%;
+    margin-left: 30px;
+    margin: 0;
+    margin-top: 3%;
+    padding: 0;
+    font-size: 1.4rem;
+    text-align: justify;
+    box-shadow: 5px 5px rgb(196, 179, 196);
+    border-radius: 5px;
+}
+#img-natalia-gomez {
+    width: 100%;
+    display: block;
+}
+
+#img-intereses{
+    width: 100%;
+    display: block;
+}
+.separador-natalia-gomez{
+    height: 30px;
+}
+.biografia-natalia-gomez{
+    margin: 10px;
+}
+.contenedor-natalia-gomez{
+    border: 10px solid rgb(224, 147, 197);/* Grosor, tipo de borde y color */
+    padding: 0;
+    width: 400px;
+}
+.contenedor-natalia-gomez img{
+    display: block; /* Elimina espacios extra debajo de la imagen */
+    width: 100%;
+    height: auto;
+}
+.frase-natalia-gomez{
+    width: 80%;
+    margin: 20px auto;
+    padding: 15px 25px;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    background-color: #f4f6f9;
+    border-left: 5px solid rgb(224, 147, 197);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    line-height: 1.6;
+}
+.frase-natalia-gomez:hover{
+    transform: scale(1.12);
+    transition: transform 0.3s ease;
+}
+.intereses-natalia-gomez {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 110px;
+}
+.intereses-natalia-gomez > div:first-child {
+    width: 40%;
+    margin: 0;
+    margin-top: 0%;
+    margin-left: 20px;
+    padding: 0;
+}
+.intereses-natalia-gomez > div:last-child {
+    background-color: rgb(227, 201, 218);
+    width: 45%;
+    margin: 0;
+    margin-top: 25px;
+    padding: 0;
+    font-size: 1.4rem;
+    text-align: justify;
+    box-shadow: 5px 5px rgb(196, 179, 196);
+    border-radius: 5px;
+}
 
 /* ********************************************************************************************** */
 
