@@ -1,0 +1,193 @@
+/* CSS - CAMILA BARRAZA */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Lora:ital,wght@0,400;1,400&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+.body-barraza {
+  background: #fdf6ee;
+  color: #3d2f27;
+  font-family: 'Lora', serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image:
+    radial-gradient(ellipse at 10% 20%, rgba(122,158,126,0.1) 0%, transparent 50%),
+    radial-gradient(ellipse at 90% 80%, rgba(194,133,106,0.12) 0%, transparent 50%);
+}
+
+
+/* MAIN */
+.main-barraza { 
+  flex: 1;
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* CARDS */
+.card {
+  background: #fffaf4;
+  border: 1px solid #e8d9c5;
+  border-radius: 18px;
+  padding: 2rem;
+  animation: fadeUp 0.7s ease both;
+  box-shadow: 0 2px 16px rgba(194,133,106,0.07);
+}
+
+.card:nth-child(2) { animation-delay: 0.15s; }
+
+/* HERO */
+.hero-inner {
+  display: flex;
+  gap: 1.75rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* FOTO */
+.photo {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 2px solid #e8d9c5;
+  background: #f7ede0;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.photo svg { color: #e8d9c5; }
+
+.photo-hint {
+  font-size: 0.6rem;
+  color: #9c7e6e;
+  letter-spacing: 0.05em;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.photo::after {
+  content: '';
+  position: absolute;
+  inset: -5px;
+  border-radius: 50%;
+  border: 1px dashed #e8d9c5;
+}
+
+.hero-text { flex: 1; min-width: 180px; }
+
+.eyebrow {
+  font-size: 0.7rem;
+  color: #c2856a;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  font-family: 'Lora', serif;
+}
+
+.h1-barraza {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  line-height: 1.15;
+  color: #3d2f27;
+  margin-bottom: 0.75rem;
+}
+
+.h1-barraza em{
+  font-style: italic;
+  color: #c2856a;
+}
+
+.bio-barraza {
+  color: #9c7e6e;
+  font-size: 0.88rem;
+  line-height: 1.85;
+}
+
+/* PROYECTOS */
+.section-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-style: italic;
+  color: #9c7e6e;
+  margin-bottom: 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-label::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: #e8d9c5;
+}
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.project-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.9rem 1.1rem;
+  background: #fdf6ee;
+  border: 1px solid #e8d9c5;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: border-color 0.2s, background 0.2s;
+  gap: 1rem;
+}
+
+.project-row:hover {
+  border-color: #c2856a;
+  background: rgba(194, 133, 106, 0.12);
+}
+
+.project-row:hover .proj-arrow { color: #c2856a; }
+
+.proj-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.92rem;
+  color: #3d2f27;
+}
+
+.proj-tech {
+  font-size: 0.7rem;
+  color: #9c7e6e;
+  margin-top: 0.15rem;
+  font-family: 'Lora', serif;
+}
+
+.proj-arrow {
+  color: #e8d9c5;
+  font-size: 1rem;
+  transition: color 0.2s;
+  flex-shrink: 0;
+}
+
+/* ANIMACIONES */
+@keyframes fadeDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
