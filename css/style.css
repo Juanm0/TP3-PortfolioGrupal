@@ -11,6 +11,15 @@
 
 }
 
+/* body {
+
+    background: var(--bg-color-radial);
+    color: var(--text-main);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    font-size: 16px;
+} */
+
 /* ************************************VARIABLES NAVARRO************************************************** */
 
 .navarro {
@@ -95,7 +104,10 @@
 
 /* **************VARIABLES GOMEZ***************** */
 
-
+.gomez body{
+    display: block;
+    margin: 8px;
+}
 .titulo-natalia-gomez {
     width: auto;
     background-color: rgb(224, 147, 197);
@@ -234,14 +246,7 @@
 
 
 
-body {
 
-    background: var(--bg-color-radial);
-    color: var(--text-main);
-    font-family: var(--font-main);
-    line-height: 1.6;
-    font-size: 16px;
-}
 
 
 /* ***********************************************NAVBAR NO TOCAR*************************************************************** */
@@ -301,20 +306,20 @@ header {
     color: #3F5EFB;
 }
 
-ul {
+.navbar ul {
     list-style: none;
     padding-left: 1rem;
     margin-bottom: 1rem;
 }
 
-ul li {
+.navbar ul li {
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 0.5rem;
     color: var(--text-apagado);
 }
 
-ul li::before {
+.navbar ul li::before {
 
     color: var(--color-primario);
     position: absolute;
