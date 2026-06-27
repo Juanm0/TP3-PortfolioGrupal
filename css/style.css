@@ -180,10 +180,12 @@
     margin: 10px;
 }
 .contenedor-natalia-gomez{
-    border: 10px solid rgb(224, 147, 197);/* Grosor, tipo de borde y color */
+    border: 10px solid rgb(224, 147, 197);/* Grosor, tipo de borde y color 
     padding: 0;
     width: 400px;
 }
+    */
+
 .contenedor-natalia-gomez img{
     display: block; /* Elimina espacios extra debajo de la imagen */
     width: 100%;
