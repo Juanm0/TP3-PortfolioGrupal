@@ -27,9 +27,20 @@
 
   <main>
 
-    <audio autoplay>
-      <source src="../img/JMSN - LOVE ME (Extended Choir Remix).mp3" type="audio/mpeg">
-    </audio>
+
+    <div class="music-widget">
+      <img src="https://i.ibb.co/hx2s3vPf/image.png" alt="Portada">
+
+      <div class="music-info">
+        <h4>JMSN</h4>
+        <p>LOVE ME</p>
+      </div>
+
+      <audio id="musica" controls autoplay loop>
+        <source src="../img/JMSN - LOVE ME (Extended Choir Remix).mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
     <section class="card" id="sobre-mi">
       <div class="hero-inner">
 
@@ -138,6 +149,10 @@
     </div>
   </footer>
 </body>
+<script>
+    const audio = document.getElementById("musica");
+    audio.volume = 0.1; // 10% del volumen
+</script>
 
 </html>
 

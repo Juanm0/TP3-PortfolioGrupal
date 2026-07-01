@@ -221,6 +221,51 @@ main {
     gap: 1.25rem;
 }
 
+.music-widget{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    width: 320px;
+    padding: 12px;
+
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    background: rgba(30,30,30,.9);
+    color: white;
+
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+}
+
+.music-widget img{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.music-info{
+    flex: 1;
+}
+
+.music-info h4{
+    margin: 0;
+    font-size: 16px;
+}
+
+.music-info p{
+    margin: 0;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+
+.music-widget audio{
+    width: 150px;
+}
+
 /* CARDS */
 .card {
     background: #fffaf4;
