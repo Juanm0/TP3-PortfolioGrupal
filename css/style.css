@@ -187,7 +187,7 @@
     */
 
 .contenedor-natalia-gomez img{
-    display: block; /* Elimina espacios extra debajo de la imagen */
+    display: block; 
     width: 100%;
     height: auto;
 }
@@ -232,7 +232,7 @@
     text-align: justify;
     box-shadow: 5px 5px rgb(196, 179, 196);
     border-radius: 5px;
-} */
+} 
 
 /* ********************************************************************************************** */
 

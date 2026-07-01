@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navarro - Portfolio</title>
     <link rel="icon" sizes="32x32" href="../img/favicon.png">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styles-barraza.css">
 </head>
 
-<body class="navarro">
+<body class="body-barraza">
     <header>
 
         <nav class="navbar">
@@ -18,46 +18,66 @@
             </a>
             <ul class="nav-links">
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/ReinosoElias.html">Proyecto Anterior</a></li>
-                <li><a href="../pages/RomeroMilagros.html">Siguiente Proyecto</a></li>
+                <li><a href="../pages/RossiLuciano.html">Proyecto Anterior</a></li>
+                <li><a href="../pages/NahuelFigueroa.html">Siguiente Proyecto</a></li>
             </ul>
         </nav>
 
     </header>
-    <section>
-        <h1>Juan Navarro (Programador)</h1>
 
+      <main class="main-barraza">
 
-        <p><strong>About me<br></strong> </p>
+    <section class="card" id="sobre-mi">
+      <div class="hero-inner">
 
-        <div>
-            
-            <img src="https://i.ibb.co/pBPnx2LT/img-juan-navarro-2.jpg" alt="pagina">
-            <img src="https://i.ibb.co/GvK1YVcY/img-juan-navarro.jpg" alt="img-juan-navarro"/>
+        <img src="../img/foto-barraza.jpeg" alt="Camila Barraza" class="photo">
+
+        <div class="hero-text">
+          <p class="eyebrow">PRESENTACIÓN</p>
+          <h1 class="h1-barraza">Hola, soy <em>Cami</em></h1>
+          <p class="bio-barraza">Tengo 31 años y soy estudiante de Analísta de Sistema en el I.S.F.DyT N° 24 y también de la Técnicatura en Programación en la UNQ (aunque está en pausa). Siempre me gustó la programación y también el diseño web. Tomé incluso cursos de UX/UI y Desarrollo Web (ratón del frontend!)</p>
         </div>
 
-
-
-
-        <p><strong>Connect with me<br></strong> </p>
-
-
-
-        <p align="center">
-            <a href="https://github.com/Juanm0/TP3-PortfolioGrupal" target="_blank">
-                <img src="https://img.shields.io/badge/github-repo-blue?logo=github" alt="logo github">
-            </a>
-            <a href="mailto:juanm.navarro05@gmail.com">
-                <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=white" alt="logo gmail" />
-            </a>
-
-            <a href="https://www.linkedin.com/in/juan-navarro-b4b8bb197/" target="_blank">
-                <img
-                    src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="logo linkedin"/>
-            </a>
-        </p>
-
+      </div>
     </section>
+
+    <section class="card" id="sobre-mi">
+      <div class="hero-inner">
+
+        <img src="../img/colección-barraza.jpg" alt="Mis gustos" class="photo">
+
+        <div class="hero-text">
+          <p class="eyebrow">Hobbies</p>
+          <p class="bio-barraza">Soy MUY FAN de muchas cosas! De Disney, anime, peliculas, Pokemón, etc. pero especialmente de la música. Soy de ir a muchos recitales y festivales de música. Además soy coleccionista del grupo de K-POP BTS. Colecciono un montón de cosas de ellos: toda su discografía (sí, TODA! Debo tener más de 80 discos de ellos), sus cartas coleccionables que ya me ocupan 3 carpetas A4, vinilos, figuras, peluches. En fin, cualquier cosas que me guste! <b>OBVIO</b> que iré a verlos en los tres shows que harán en La Plata en octubre 😉 (y un día en el VIP, xicaaaa!) </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="card" id="proyectos">
+      <p class="section-label">PROYECTOS DEL INSTITUTO</p>
+      <div class="project-list">
+
+        <a href="https://cami-barraza.github.io/tp1-horario-tecnicatura/" class="project-row">
+          <div>
+            <div class="proj-name">TP 1 </div>
+            <div class="proj-tech">Horarios</div>
+          </div>
+          <span class="proj-arrow">→</span>
+        </a>
+
+        <a href="https://tphedylamarr.netlify.app/" class="project-row">
+          <div>
+            <div class="proj-name">TP 2</div>
+            <div class="proj-tech">Mujeres en la Tecnología: Hedy Lamarr</div>
+          </div>
+          <span class="proj-arrow">→</span>
+        </a>
+
+      </div>
+    </section>
+  </main>
+
     <footer class="site-footer">
         <div class="footer-content">
             <div class="footer-description">
@@ -65,17 +85,17 @@
                     ipsum dolor sit!.</p>
             </div>
 
-            <nav class="footer-nav">
+            <nav class="footer-nav" aria-label="Navegación del pie de página">
                 <ul class="footer-links">
                     <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../pages/ReinosoElias.html">Proyecto Anterior</a></li>
-                    <li><a href="../pages/RomeroMilagros.html">Siguiente Proyecto</a></li>
+                <li><a href="../pages/RossiLuciano.html">Proyecto Anterior</a></li>
+                <li><a href="../pages/NahuelFigueroa.html">Siguiente Proyecto</a></li>
                 </ul>
             </nav>
 
             <div class="footer-social">
                 <p>Connect with me</p>
-                <a href="https://www.linkedin.com/in/juan-navarro-b4b8bb197/" target="_blank">LinkedIn</a> | <a href="https://github.com/Juanm0/TP3-PortfolioGrupal" target="_blank">GitHub</a>
+                <span>LinkedIn</span> | <span>GitHub</span>
             </div>
         </div>
 
