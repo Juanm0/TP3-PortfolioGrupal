@@ -88,12 +88,16 @@ main {
     gap: 20px;
 }
 
-img:hover {
+.hero-inner img:hover, .img-login:hover{
     transform: scale(1.02);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-    border-color: #e68fe0;
-
+    
 }
+.hero-inner img:hover, .img-login:hover, .img-landing:hover{
+    border-color: #e68fe0;
+}
+
+
 
 .music-widget {
     position: fixed;
@@ -112,6 +116,7 @@ img:hover {
 
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+    z-index: 100;
 }
 
 .music-widget img {
@@ -141,16 +146,15 @@ img:hover {
 }
 
 /* CARDS */
-.card {
+.card, .project-card {
     background: #FAFAFA;
-    border: 1px solid #e8d9c5;
     border-radius: 18px;
     padding: 2rem;
     box-shadow: 0 2px 16px rgba(194, 133, 106, 0.07);
 }
 
-.card:nth-child(2) {
-    animation-delay: 0.15s;
+.card{
+    border: 1px solid #e8d9c5;
 }
 
 /* HERO */
@@ -174,25 +178,21 @@ img:hover {
     min-width: 180px;
 }
 
-.eyebrow {
-    font-size: 0.7rem;
+.section-label {
+    font-size: 0.9rem;
     color: #667085;
-    letter-spacing: 0.15em;
     text-transform: uppercase;
-    margin-bottom: 0.6rem;
-    font-family: 'Lora', serif;
 }
 
 h1 {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
+   
     font-size: clamp(1.7rem, 4vw, 2.4rem);
     line-height: 1.15;
     color: #3d2f27;
     margin-bottom: 0.75rem;
 }
 
-h1 em {
+em {
     font-style: italic;
     color: #1e6ee7;
 }
@@ -208,32 +208,47 @@ h1 em {
 
 .project-card {
     display: flex;
+    flex-direction: column;
     gap: 25px;
     align-items: center;
-
     padding: 20px;
     margin-top: 20px;
+}
 
-    border-radius: 18px;
-
+.project-card .section-label{
+    margin: 0;
+    align-self: flex-start;
+}
+.project-card:hover, .card:hover {
+    transform: translateY(-5px);
+    
     transition: .3s;
 }
 
-.project-card:hover {
-    transform: translateY(-5px);
-}
-
 .project-card img {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
+    width: 300px;
+    height: 100%;
+    border-radius: 10px;
     border: 2px solid #e8d9c5;
 }
+
+
+.img-landing {
+    transform: translate(50px, -60px);
+    z-index: 2;
+}
+
+.div-img-proyects {
+    margin-right: 40px;
+}
+
+
 
 .project-info {
     display: flex;
     flex-direction: column;
     gap: 12px;
+    padding: 2rem;  
 }
 
 .project-info h3 {
@@ -271,4 +286,17 @@ h1 em {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@media (max-width: 798px) {
+
+    .img-landing {
+        transform: none;
+    }
+
+    .div-img-proyects {
+        margin-left: 40px;
+        
+    }
+
 }
