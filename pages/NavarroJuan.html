@@ -2,6 +2,166 @@
 <html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navarro - Portfolio</title>
+  <link rel="icon" sizes="32x32" href="../img/favicon.png">
+  <link rel="stylesheet" href="../css/style-Navarro.css">
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar">
+      <a href="../index.html" class="logo">
+        <img src="../img/image-logo-cat.png" alt="logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../pages/ReinosoElias.html">Proyecto Anterior</a></li>
+        <li><a href="../pages/RomeroMilagros.html">Siguiente Proyecto</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main>
+
+
+    <div class="music-widget">
+      <img src="https://i.ibb.co/hx2s3vPf/image.png" alt="Portada">
+
+      <div class="music-info">
+        <h4>JMSN</h4>
+        <p>LOVE ME</p>
+      </div>
+
+      <audio id="musica" controls autoplay loop>
+        <source src="../img/JMSN - LOVE ME (Extended Choir Remix).mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <section class="card" id="sobre-mi">
+      <div class="hero-inner">
+
+        <img src="../img/favicon2.png" alt="foto gatito despues camvbiar" class="photo">
+
+        <div class="hero-text">
+          <p class="eyebrow">PRESENTACIÓN</p>
+          <h1 class="h1-barraza">Hola, soy <em>Juan</em></h1>
+          <p class="bio-barraza">Tengo 25 años y estudio para ser Analísta de Sistemas en el I.S.F.DyT N° 24. Siempre me
+            gustó la programación tanto diseño web como backend. Tomé cursos de ReactJS, Python, JavaScript, Desarrollo
+            Web, tambien estudié C (si, c solo sin el ++ ni el #)</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="card" id="sobre-mi">
+      <div class="hero-inner">
+
+        <img src="../img/poke.jpeg" alt="Mis gustos" class="photo">
+
+        <div class="hero-text">
+          <p class="eyebrow">SOBRE MI</p>
+          <p class="bio-barraza">No soy fan de muchas cosas!. Me gusta tomar mates y estudiar. Trabajo un monton por eso
+            no tengo cara de felicidad todos los dias. Algunas personas dicen que soy re gracioso y es verdad,<b>
+              creo</b>. Una vez en una entrevista de trabajo me dijeron que me defina en 1 palabra y yo les dije "Ego y
+            Competencia" <b>Ego</b> por el orgullo y la confianza extrema en mi mismo y <b>Competencia</b> por mi
+            capacidad real de solucionar problemas y dar resultados mejores que otras personas, en fin no quedé en ese
+            puesto por que le dije 2 palabras y me pidieron solo una 😜. </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- <section class="card" id="proyectos">
+      <p class="section-label">PROYECTOS PERSONALES</p>
+      <div class="project-list">
+
+        <a href="https://cami-barraza.github.io/tp1-horario-tecnicatura/" class="project-row">
+          <div>
+            <div class="proj-name">TP 1 </div>
+            <div class="proj-tech">Horarios</div>
+          </div>
+          <span class="proj-arrow">→</span>
+        </a>
+
+        <a href="https://tphedylamarr.netlify.app/" class="project-row">
+          <div>
+            <div class="proj-name">TP 2</div>
+            <div class="proj-tech">Mujeres en la Tecnología: Hedy Lamarr</div>
+          </div>
+          <span class="proj-arrow">→</span>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="card" id="proyectos">
+      <p class="section-label">PROYECTOS DEL INSTITUTO</p>
+      <div class="project-list">
+
+        <a href="https://cami-barraza.github.io/tp1-horario-tecnicatura/" class="project-row">
+          <div>
+            <div class="proj-name">TP 1 </div>
+            <div class="proj-tech">Horarios</div>
+          </div>
+          <span class="proj-arrow">→</span>
+        </a>
+
+        <a href="https://tphedylamarr.netlify.app/" class="project-row">
+          <div>
+            <div class="proj-name">TP 2</div>
+            <div class="proj-tech">Mujeres en la Tecnología: Hedy Lamarr</div>
+          </div>
+          <span class="proj-arrow">→</span>
+        </a>
+
+      </div>
+    </section> -->
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <div class="footer-description">
+        <p>Hola, esta es una descripcion. Acá ponemos las descripciones que vamos a usar en el footer Lorem
+          ipsum dolor sit!.</p>
+      </div>
+
+      <nav class="footer-nav">
+        <ul class="footer-links">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="../pages/ReinosoElias.html">Proyecto Anterior</a></li>
+          <li><a href="../pages/RomeroMilagros.html">Siguiente Proyecto</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <p>Connect with me</p>
+        <a href="https://www.linkedin.com/in/juan-navarro-b4b8bb197/" target="_blank">LinkedIn</a> | <a
+          href="https://github.com/Juanm0/TP3-PortfolioGrupal" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 I.S.F.D Y T N°24. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+<script>
+    const audio = document.getElementById("musica");
+    audio.volume = 0.1; // 10% del volumen
+</script>
+
+</html>
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navarro - Portfolio</title>
@@ -86,3 +246,5 @@
 </body>
 
 </html>
+
+-->
