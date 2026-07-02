@@ -4,11 +4,9 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-.body-barraza {
+.body {
   background: #fdf6ee;
   color: #3d2f27;
-  font-family: 'Lora', serif;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   background-image:
@@ -19,6 +17,8 @@
 
 /* MAIN */
 .main-barraza { 
+  font-family: 'Lora', serif;
+  min-height: 100vh;
   flex: 1;
   max-width: 680px;
   width: 100%;
