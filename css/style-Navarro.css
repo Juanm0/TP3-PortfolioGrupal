@@ -1,5 +1,3 @@
-
-
 /* *******************************************VARIABLES NAVARRO*************************************************** */
 /* .navarro {
     --bg-color-radial: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
@@ -81,21 +79,23 @@ body {
 /* MAIN */
 main {
     flex: 1;
-    max-width: 680px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
     padding: 3rem 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 1.25rem;
+    gap: 20px;
 }
 
 img:hover {
     transform: scale(1.02);
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
-    border-color: #5ad7db;
+    border-color: #e68fe0;
+
 }
-.music-widget{
+
+.music-widget {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -107,46 +107,45 @@ img:hover {
     gap: 15px;
     align-items: center;
 
-    background: rgba(30,30,30,.9);
+    background: rgba(30, 30, 30, .9);
     color: white;
 
     border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,.4);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
 }
 
-.music-widget img{
+.music-widget img {
     width: 60px;
     height: 60px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.music-info{
+.music-info {
     flex: 1;
 }
 
-.music-info h4{
+.music-info h4 {
     margin: 0;
     font-size: 16px;
 }
 
-.music-info p{
+.music-info p {
     margin: 0;
     color: #b3b3b3;
     font-size: 14px;
 }
 
-.music-widget audio{
+.music-widget audio {
     width: 150px;
 }
 
 /* CARDS */
 .card {
-    background: #fffaf4;
+    background: #FAFAFA;
     border: 1px solid #e8d9c5;
     border-radius: 18px;
     padding: 2rem;
-    animation: fadeUp 0.7s ease both;
     box-shadow: 0 2px 16px rgba(194, 133, 106, 0.07);
 }
 
@@ -168,23 +167,6 @@ img:hover {
     height: 110px;
     border-radius: 50%;
     border: 2px solid #e8d9c5;
-    background: #f7ede0;
-    flex-shrink: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.3rem;
-    overflow: hidden;
-    position: relative;
-}
-
-.photo::after {
-    content: '';
-    position: absolute;
-    inset: -5px;
-    border-radius: 50%;
-    border: 1px dashed #e8d9c5;
 }
 
 .hero-text {
@@ -194,7 +176,7 @@ img:hover {
 
 .eyebrow {
     font-size: 0.7rem;
-    color: #c2856a;
+    color: #667085;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin-bottom: 0.6rem;
@@ -212,81 +194,70 @@ h1 {
 
 h1 em {
     font-style: italic;
-    color: #26c7ac;
+    color: #1e6ee7;
 }
 
-.bio-barraza {
-    color: #9c7e6e;
+.biografia {
+    color: #4A4A4A;
     font-size: 0.88rem;
     line-height: 1.85;
 }
 
 /* PROYECTOS */
-.section-label {
-    font-family: 'Playfair Display', serif;
-    font-size: 1rem;
-    font-style: italic;
-    color: #9c7e6e;
-    margin-bottom: 1.1rem;
+
+
+.project-card {
     display: flex;
+    gap: 25px;
     align-items: center;
-    gap: 0.75rem;
+
+    padding: 20px;
+    margin-top: 20px;
+
+    border-radius: 18px;
+
+    transition: .3s;
 }
 
-.section-label::after {
-    content: '';
-    flex: 1;
-    height: 1px;
-    background: #e8d9c5;
+.project-card:hover {
+    transform: translateY(-5px);
 }
 
-.project-list {
+.project-card img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 2px solid #e8d9c5;
+}
+
+.project-info {
     display: flex;
     flex-direction: column;
-    gap: 0.65rem;
+    gap: 12px;
 }
 
-.project-row {
+.project-info h3 {
+    font-size: 1.6rem;
+}
+
+.project-info p {
+    line-height: 1.7;
+}
+
+.project-tags {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.9rem 1.1rem;
-    background: #fdf6ee;
-    border: 1px solid #e8d9c5;
-    border-radius: 12px;
-    text-decoration: none;
-    transition: border-color 0.2s, background 0.2s;
-    gap: 1rem;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-.project-row:hover {
-    border-color: #c2856a;
-    background: rgba(194, 133, 106, 0.12);
+.project-tags span {
+    background: #3F5EFB;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 50px;
+    font-size: .85rem;
 }
 
-.project-row:hover .proj-arrow {
-    color: #c2856a;
-}
-
-.proj-name {
-    font-family: 'Playfair Display', serif;
-    font-size: 0.92rem;
-    color: #3d2f27;
-}
-
-.proj-tech {
-    font-size: 0.7rem;
-    color: #9c7e6e;
-    margin-top: 0.15rem;
-    font-family: 'Lora', serif;
-}
-
-.proj-arrow {
-    color: #e8d9c5;
-    font-size: 1rem;
-    transition: color 0.2s;
-    flex-shrink: 0;
-}
 
 /* ANIMACIONES */
 
