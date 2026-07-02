@@ -201,7 +201,7 @@ img:hover {
     font-family: 'Lora', serif;
 }
 
-.h1-barraza {
+h1 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: clamp(1.7rem, 4vw, 2.4rem);
@@ -210,9 +210,9 @@ img:hover {
     margin-bottom: 0.75rem;
 }
 
-.h1-barraza em {
+h1 em {
     font-style: italic;
-    color: #c2856a;
+    color: #26c7ac;
 }
 
 .bio-barraza {
