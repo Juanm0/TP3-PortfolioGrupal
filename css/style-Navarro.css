@@ -90,7 +90,7 @@ main {
     border-radius: 18px;
     padding: 2rem;
     box-shadow: 0 2px 16px rgba(194, 133, 106, 0.07);
-    animation: fadeUp 8s ease;  /* ESTO DESPUES LO TENGO QUE CAMBIAR JAAJAJAAJ */
+    animation: fadeUp 6s ease;  /* ESTO DESPUES LO TENGO QUE CAMBIAR JAAJAJAAJ */
 }
 
 
