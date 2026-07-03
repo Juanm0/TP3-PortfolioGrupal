@@ -101,9 +101,38 @@ header {
     font-weight: bold;
 }
 
-
 /* ********************************************************************************************** */
 
+/* *********************** FIGURES NO TOCAR ***************************************************** */
+
+figure {
+    display: inline-block;
+    width: 300px; 
+    margin: 20px; 
+    vertical-align: top;
+}
+figure img {
+    border: 7px solid rgb(0, 162, 255);
+    width: 100%; 
+    height: 300px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+figure img:hover {
+    border: 7px solid rgb(212, 255, 0);
+}
+figcaption {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 10px;
+}
+.main-index{
+    background-color: #333;
+    text-align: center;
+}
+
+/* *************************************************************************************************************************** */
 
 /* *********************************FOOTER NO TOCAR********************************************** */
 
