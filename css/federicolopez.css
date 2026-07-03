@@ -191,16 +191,85 @@
     border-radius:15px;
     margin:10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}.site-footer {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    text-align: center;
+    line-height: 1.6;
 }
-.footer-lopez{
-    width:90%;
-    margin:30px auto;
-    background:#ffffff;
-    color:rgb(0, 0, 0);
-    padding:25px;
-    text-align:center;
-    border-radius:20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.footer-description p {
+    font-size: 1rem;
+    color: #a0a0a0;
+    margin: 0;
+    max-width: 600px;
+}
+
+.footer-nav {
+    margin: 10px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.footer-links li a:hover {
+    color: #3F5EFB;
+
+}
+
+.footer-social {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+}
+
+.footer-social a {
+    cursor: pointer;
+    color: #3498db;
+}
+
+.footer-social span:hover {
+    text-decoration: underline;
+}
+
+
+.footer-bottom {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+    font-size: 0.85rem;
+    color: #666;
+}
+
+.footer-bottom img {
+    opacity: 0.1;
 }
 
 .logo24-lopez{
