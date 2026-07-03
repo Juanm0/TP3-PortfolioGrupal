@@ -288,7 +288,7 @@ figcaption {
     margin-top: 3%;
     padding: 0;
     font-size: 1.4rem;
-    font-size: 30px;
+    font-size: 23px;
     text-align: justify;
     box-shadow: 5px 5px rgb(41, 96, 108);
     border-radius: 5px;
@@ -304,7 +304,7 @@ figcaption {
 }
 
 .biografia-sol-konrad {
-    margin: 10px;
+    margin: 5px;
 }
 
 .contenedor-sol-konrad {
