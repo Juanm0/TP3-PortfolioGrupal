@@ -283,15 +283,15 @@ figcaption {
 .article-sol-konrad>div:last-child {
     background-color: rgb(123, 220, 240);
     width: 45%;
-    margin-left: 30px;
+    margin-left: 40px;
     margin: 0;
-    margin-top: 3%;
+    margin-top: 5%;
     padding: 0;
     font-size: 1.4rem;
-    font-size: 23px;
+    font-size: 22px;
     text-align: justify;
     box-shadow: 5px 5px rgb(41, 96, 108);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #img-sol-konrad {

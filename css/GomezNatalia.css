@@ -132,8 +132,136 @@
     margin: 0;
     padding-left: 30px;
 }
-
 .intereses-natalia-gomez .lista-intereses li{
     margin: 10px 0;
     font-size: 1.4rem;
+}
+/*====================================
+        CONTENEDOR PRINCIPAL
+====================================*/
+.contenedor-contacto-gomez{
+    width:60%;
+    margin:70px auto;
+    padding:40px;
+    background-color:rgb(246,226,238);
+    border:3px solid rgb(221,176,203);
+    border-radius:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+/*====================================
+             TITULO
+====================================*/
+.contacto-gomez{
+    text-align:center;
+    color:rgb(176,84,133);
+    font-size:2.4rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:35px;
+    border-bottom:3px solid rgb(221,176,203);
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:10px;
+}
+/*====================================
+          TARJETAS
+====================================*/
+.email-gomez{
+    width:85%;
+    margin:18px auto;
+    padding:18px 25px;
+    background:white;
+    border-radius:18px;
+    display:flex;
+    align-items:center;
+    gap:20px;
+    text-decoration:none;
+    color:#444;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    transition:.35s;
+}
+.email-gomez:hover{
+    background:rgb(189, 150, 170);
+    color:rgb(176,84,133);
+    transform:translateY(-3px);
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+}
+/*====================================
+        ICONO DEL CORREO
+====================================*/
+.icono-mail-gomez{
+    width:60px;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:rgb(221,176,203);
+    border-radius:50%;
+    flex-shrink:0;
+    transition:.35s;
+}
+.icono-mail-gomez img{
+    width:32px;
+    height:32px;
+}
+.email-gomez:hover .icono-mail-gomez{
+    background:rgb(176,84,133);
+    transform:scale(1.08);
+}
+/*====================================
+            LOGO BLOG
+====================================*/
+.logo-blog-gomez{
+    width:60px;
+    height:auto;
+    flex-shrink:0;
+    transition:.35s;
+}
+.email-gomez:hover .logo-blog-gomez{
+    transform:scale(1.08);
+}
+/*====================================
+            TEXTO
+====================================*/
+.email-gomez span{
+    color:#444;
+    font-size:1.3rem;
+    font-weight:500;
+}
+.email-gomez:hover span{
+    color:rgb(176,84,133);
+}
+
+/*====================================
+          RESPONSIVE
+====================================*/
+
+@media (max-width:768px){
+    .contenedor-contacto-gomez{
+        width:90%;
+        padding:25px;
+    }
+    .contacto-gomez{
+        font-size:2rem;
+    }
+    .email-gomez{
+        width:100%;
+        padding:15px;
+        gap:15px;
+    }
+    .icono-mail-gomez{
+        width:50px;
+        height:50px;
+    }
+    .icono-mail-gomez img{
+        width:26px;
+        height:26px;
+    }
+    .logo-blog-gomez{
+        width:50px;
+    }
+    .email-gomez span{
+        font-size:1.1rem;
+    }
 }
