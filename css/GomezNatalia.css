@@ -31,7 +31,6 @@
 .main-natalia-gomez{
     margin-bottom: 15px;
 }
-
 .article-natalia-gomez {
     display: flex;
     flex-direction: row;
@@ -39,7 +38,6 @@
     display:flex;
     align-items:flex-start;
     margin-bottom:50px;
-
 }
 .article-natalia-gomez > div:first-child {
       width:40%;
@@ -63,7 +61,6 @@
     width: 100%;
     display: block;
 }
-
 #img-intereses{
     width: 100%;
     display: block;
@@ -232,36 +229,33 @@
 .email-gomez:hover span{
     color:rgb(176,84,133);
 }
-
 /*====================================
           RESPONSIVE
 ====================================*/
-
 @media (max-width:768px){
-    .contenedor-contacto-gomez{
-        width:90%;
-        padding:25px;
-    }
-    .contacto-gomez{
-        font-size:2rem;
-    }
-    .email-gomez{
-        width:100%;
-        padding:15px;
-        gap:15px;
-    }
-    .icono-mail-gomez{
-        width:50px;
-        height:50px;
-    }
-    .icono-mail-gomez img{
-        width:26px;
-        height:26px;
-    }
-    .logo-blog-gomez{
-        width:50px;
-    }
-    .email-gomez span{
-        font-size:1.1rem;
-    }
+.contenedor-contacto-gomez{
+    width:90%;
+    padding:25px;
+}
+.contacto-gomez{
+    font-size:2rem;
+}
+.email-gomez{
+    width:100%;
+    padding:15px;
+    gap:15px;
+}
+.icono-mail-gomez{
+    width:50px;
+    height:50px;
+}
+.icono-mail-gomez img{
+    width:26px;
+    height:26px;
+}
+.logo-blog-gomez{
+    width:50px;
+}
+.email-gomez span{
+    font-size:1.1rem;
 }
