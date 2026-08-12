@@ -1,0 +1,74 @@
+
+.body-nahuel{
+    background-color:gray;
+}
+
+.main-nahuel{
+margin: 30px;
+}
+
+.presentacion-container{
+    display:flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+.presentacion-nahuel{ font-size: 25px;
+    background: rgba(148, 187, 233, 1);
+    margin-top: 30px;
+    border-radius: 20px;
+width: 30%;
+flex: 1 ;
+color: black;
+
+}
+.pasatiempos{ 
+margin-top: 30px;
+background: rgba(202, 26, 26, 0.712);
+padding: 35px;
+border-radius: 20px;
+box-shadow:0 10px 25px rgba(0,0 , 0, 0.12)
+
+}
+
+.metas{
+    margin-top:30px;
+    background: rgba(202, 26, 26, 0.712);
+    border-radius: 20px;
+    color: #0d0c0e;
+
+}
+
+.contacto{margin-top: 30px;
+background:rgba(148, 187, 233, 1);
+border-radius: 20px;
+color: black;
+font-size: 15px;}
+
+root {
+
+    --bg-gradient: white;
+    --text-main: #111;
+    --card-bg: white;
+    --color-primario: #3F5EFB;
+    --color-secundario: #3F5EFB;
+    --text-apagado: #94a3b8;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-heading: 'Georgia', serif;
+
+}
+
+.titulo{ 
+    text-align: center;
+background-size: cover;
+background-position: center;
+padding: 20px;
+
+}
+ .foto-nahuel{ width: 250px;
+    height: auto;
+object-fit: cover;
+border-radius: 8px;
+margin: 20px;
+box-shadow: 0 5px 15px rgba(0, 0, 0,2);
+
+ } 
